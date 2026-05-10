@@ -1,0 +1,47 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'HireIQ',
+    tagline: 'AI-Powered Job Portal — Full MERN Stack',
+    liveUrl: 'https://hireiq-frontend-sigma.vercel.app',
+    githubUrl: 'https://github.com/rajeshThappeta',
+    tags: ['MERN', 'AI'],
+    screenshot: null,
+    aiFeatures: [
+      'Semantic Job Search via Cohere embed-english-v3.0 + MongoDB Atlas Vector Search',
+      'AI Chatbot with Groq llama-3.1-8b-instant + real-time SSE streaming',
+      'Resume Skill-Gap Analysis — AI compares your skills vs job requirements',
+      'AI Job Summarizer powered by Groq',
+      'Personalized Recommendations via profile embeddings matched against job embeddings',
+    ],
+    coreFeatures: [
+      'Resume Upload & Parsing — Multer + Cloudinary + pdf-parse',
+      'Role-Based Access Control — Jobseeker / Recruiter / Admin',
+      'Job Application Tracking with status workflow',
+      'Recruiter Dashboard — Post jobs, manage applications',
+    ],
+    stack: ['MongoDB Atlas', 'Express', 'React', 'Vite', 'Node.js', 'Cohere', 'Groq', 'Cloudinary', 'React Query', 'Zustand', 'JWT'],
+    impact: 'End-to-end AI-augmented hiring platform running entirely on free-tier APIs.',
+  },
+  {
+    id: 2,
+    title: 'AI Writing Assistant',
+    tagline: 'AI-Augmented Blogging Platform',
+    liveUrl: 'https://ai-blogapp-frontend.vercel.app',
+    githubUrl: 'https://github.com/rajeshThappeta',
+    tags: ['MERN', 'AI'],
+    screenshot: null,
+    aiFeatures: [
+      'SSE streaming AI article improver — Groq Llama 3.3 70B rewrites content word-by-word',
+      'AI Auto-Summary Pipeline — summary generated on every publish via Groq',
+    ],
+    coreFeatures: [
+      'Social Auth + RBAC — Clerk handles Google, GitHub, LinkedIn OAuth',
+      'Analytics Dashboard — MongoDB aggregation + Recharts bar charts',
+      'Soft Delete + Restore — articles never hard-deleted',
+      'Full-stack deployment — React 19 + Vite on Vercel, Express 5 + Render',
+    ],
+    stack: ['React 19', 'Vite', 'Express 5', 'Mongoose', 'MongoDB Atlas', 'Groq', 'Clerk', 'Recharts', 'Vercel', 'Render'],
+    impact: 'Demonstrates AI-augmented write pipelines and production-grade auth architecture.',
+  },
+]
