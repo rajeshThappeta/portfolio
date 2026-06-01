@@ -44,4 +44,28 @@ export const projects = [
     stack: ['React 19', 'Vite', 'Express 5', 'Mongoose', 'MongoDB Atlas', 'Groq', 'Clerk', 'Recharts', 'Vercel', 'Render'],
     impact: 'Demonstrates AI-augmented write pipelines and production-grade auth architecture.',
   },
+  {
+    id: 3,
+    title: 'DevAssist AI',
+    tagline: 'Agentic Code Review & PR Intelligence — ReAct Pattern from Scratch',
+    liveUrl: 'https://devassist-ai-ashen.vercel.app',
+    githubUrl: 'https://github.com/rajeshThappeta/devassist-ai',
+    tags: ['Agentic AI', 'ReAct'],
+    screenshot: null,
+    aiFeatures: [
+      'Custom ReAct agent loop (Reasoning + Acting) — built from scratch, no LangChain',
+      'LLM autonomously decides which files to read based on the goal — no hardcoding',
+      'Live reasoning chain streamed step-by-step: Thought → Action → Observation',
+      'Structured JSON final answer — tech stack, findings, severity-rated issues, recommendations',
+      'Self-correcting agent — tool errors returned as observations, LLM adapts on next iteration',
+    ],
+    coreFeatures: [
+      'SSE streaming — each agent step pushed to frontend in real time via Server-Sent Events',
+      '4 GitHub API tools — fetch tree, read file, search files, analyze package.json',
+      'Hard iteration cap (MAX 8) — safety boundary prevents infinite loops',
+      'Stateless architecture — no database, no auth, no file uploads',
+    ],
+    stack: ['Node.js', 'Express', 'React', 'Vite', 'Groq', 'GitHub API', 'SSE', 'Tailwind CSS', 'Render', 'Vercel'],
+    impact: 'Demonstrates the ReAct agentic pattern end-to-end — intentionally no embeddings or vector DB, contrasting the RAG projects.',
+  },
 ]
