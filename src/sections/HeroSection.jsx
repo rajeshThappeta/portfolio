@@ -4,7 +4,7 @@ import CountUp from "../components/animations/CountUp";
 import { stats } from "../data/stats";
 
 const badges = [
-  { label: "AI-Powered Full Stack Trainer", pos: "top-4 -right-6" },
+  { label: "Agentic AI & Full Stack Mentor", pos: "top-4 -right-6" },
   { label: "Java Full Stack", pos: "top-1/3 -left-8" },
   { label: "AI-Powered Apps", pos: "bottom-8 -right-4" },
   { label: "15+ Years Mentoring", pos: "bottom-4 -left-6" },

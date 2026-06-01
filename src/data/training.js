@@ -1,4 +1,22 @@
-export const programs = [
+export const professionalPrograms = [
+  {
+    id: 2,
+    title: 'AI-Powered Full Stack',
+    duration: '10 Weeks',
+    icon: '🤖',
+    stack: ["MERN", 'Groq', 'Cohere', 'LangChain.js', 'Vector DBs', 'SSE Streaming', 'ReAct', 'Agents'],
+    outcomes: [
+      'Build and deploy end-to-end RAG pipelines with vector embeddings and semantic search',
+      'Integrate LLMs into production full-stack apps using Groq and LangChain.js',
+      'Design and implement Agentic AI systems — ReAct pattern, tool calling, multi-step reasoning',
+      'Stream AI responses in real time with Server-Sent Events (SSE)',
+      'Connect AI features to MongoDB Atlas Vector Search for intelligent data retrieval',
+      'Build production-grade AI apps: job portals, writing assistants, code review agents'
+    ],
+    tags: ['MERN', 'MEAN','AI'],
+    highlight: true,
+    badge: '2026 Focus',
+  },
   {
     id: 1,
     title: 'MERN Full Stack Bootcamp',
@@ -13,21 +31,9 @@ export const programs = [
     ],
     tags: ['MERN'],
   },
-  {
-    id: 2,
-    title: 'AI-Powered Full Stack',
-    duration: '10 Weeks',
-    icon: '🤖',
-    stack: ['MERN', 'Groq', 'Cohere', 'LangChain', 'Vector DBs', 'SSE Streaming'],
-    outcomes: [
-      'Integrate LLMs into full stack apps',
-      'Build semantic search with vector embeddings',
-      'Implement RAG pipelines',
-      'Stream AI responses in real time with SSE',
-    ],
-    tags: ['MERN', 'AI'],
-    highlight: true,
-  },
+]
+
+export const foundationPrograms = [
   {
     id: 3,
     title: 'Java Full Stack',
@@ -57,3 +63,5 @@ export const programs = [
     tags: ['Career'],
   },
 ]
+
+export const programs = [...professionalPrograms, ...foundationPrograms]
