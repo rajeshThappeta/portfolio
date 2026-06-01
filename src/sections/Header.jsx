@@ -41,7 +41,7 @@ export default function Header() {
           <a href="#hero" className="flex flex-col leading-none group">
             <span className="font-bold text-lg gradient-text">Rajesh T</span>
             <span className="text-[10px] tracking-widest uppercase" style={{ color: "var(--muted)" }}>
-              AI Systems Architect & Full Stack Educator
+              AI Integration Engineer · RAG & Agentic AI · Full Stack Educator
             </span>
           </a>
 
