@@ -84,7 +84,7 @@ export default function HeroSection() {
               className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4"
               style={{ color: "var(--text)" }}
             >
-              AI Systems Architect & <span className="gradient-text">Full Stack Educator</span>
+              AI Integration Engineer · RAG & Agentic AI · <span className="gradient-text">Full Stack Educator</span>
             </motion.h1>
 
             <motion.p
