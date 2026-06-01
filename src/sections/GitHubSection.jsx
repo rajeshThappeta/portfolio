@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
 import GithubIcon from "../components/ui/GithubIcon";
 import SectionWrapper from "../components/ui/SectionWrapper";
 import SectionTitle from "../components/ui/SectionTitle";
@@ -120,36 +119,6 @@ export default function GitHubSection() {
         </motion.div>
       </div>
 
-      {/* Currently Building */}
-      <motion.div
-        initial={{ opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        className="mt-6 p-5 rounded-2xl flex items-center justify-between gap-4 flex-wrap"
-        style={{ background: "rgba(99,102,241,0.08)", border: "1px solid rgba(99,102,241,0.25)" }}
-      >
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#818cf8" }}>
-            Currently Building
-          </p>
-          <p className="font-bold" style={{ color: "var(--text)" }}>
-            AI-Powered Full Stack Learning Platform
-          </p>
-          <p className="text-sm mt-1" style={{ color: "var(--muted)" }}>
-            Production-grade curriculum delivery with LLM-assisted code reviews and student progress tracking.
-          </p>
-        </div>
-        <a
-          href={`https://github.com/${username}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white shrink-0 transition-all hover:scale-105"
-          style={{ background: "#161b22", border: "1px solid #30363d" }}
-        >
-          <GithubIcon size={15} /> View GitHub
-        </a>
-      </motion.div>
     </SectionWrapper>
   );
 }
