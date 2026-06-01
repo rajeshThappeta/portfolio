@@ -68,10 +68,10 @@ export default function AboutSection() {
             into modern web applications.
           </p>
           <p className="text-sm md:text-base leading-7" style={{ color: "var(--muted)" }}>
-            My career began as a Java backend developer working on enterprise application development using Java, Spring
-            Boot, and RESTful services. Over the years, I transitioned into a specialized educator focused on helping
-            students, fresh graduates, and working professionals become highly capable full stack engineers through
-            real-world engineering practices and project-driven learning.
+            My engineering background started in Java and Spring Boot enterprise systems, which gives me the
+            architecture instincts that most AI tutorials skip entirely. I transitioned into full stack education
+            because I believe the fastest way to make a developer dangerous with AI is to put a real production system
+            in front of them and build it together — not walk them through slides
           </p>
 
           <div

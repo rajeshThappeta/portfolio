@@ -105,8 +105,7 @@ export default function HeroSection() {
               className="text-sm md:text-base mb-8 max-w-lg mx-auto lg:mx-0"
               style={{ color: "var(--muted)" }}
             >
-              Senior mentor with 15+ years of experience in enterprise backend development and AI-integrated full stack
-              training. I help beginners and professionals become job-ready through real-world AI-powered projects.
+              I'm an AI Engineering Educator with 15+ years of experience — first as an enterprise backend developer, then as a full stack instructor, and now focused entirely on training professional developers to build production AI systems. I don't teach from theory. Every RAG pipeline, agentic workflow, and LLM integration I train on, I've built and deployed myself.
             </motion.p>
 
             <motion.div
